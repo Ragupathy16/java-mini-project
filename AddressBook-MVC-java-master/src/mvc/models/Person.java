@@ -13,7 +13,7 @@ public class Person {
     private String mob;
     private String email;
     private String address;
-    
+    private String pincode;
    /* public User(){
         x=0;
     }
@@ -46,15 +46,27 @@ public class Person {
      public String getaddress(){
         return this.address; 
    }
+     public String getpincode(){
+        return this.pincode; 
+   }
     
-    public void setData(String name, String mob,String email){
+    public void setData(String name, String mob,String email,String address){
         this.name = name;
         this.mob = mob;
         this.email = email;
         this.address = address;
+        this.pincode = pincode;
     }
 
     public String getAddress() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getPincode() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setData(String name, String mobile, String email, String address, String pincode) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
